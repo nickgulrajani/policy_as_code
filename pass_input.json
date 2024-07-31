@@ -1,0 +1,32 @@
+{
+  "resource_changes": [
+    {
+      "type": "azurerm_storage_account",
+      "name": "example_storage",
+      "change": {
+        "actions": ["create"],
+        "after": {
+          "tags": {
+            "environment": "production",
+            "project": "example",
+            "owner": "team_a"
+          }
+        }
+      }
+    },
+    {
+      "type": "azurerm_storage_account",
+      "name": "another_storage",
+      "change": {
+        "actions": ["create"],
+        "after": {
+          "tags": {
+            "environment": "staging",
+            "project": "demo",
+            "owner": "team_b"
+          }
+        }
+      }
+    }
+  ]
+}
