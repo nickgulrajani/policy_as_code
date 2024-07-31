@@ -169,7 +169,7 @@ Neither of these resources is fully compliant with the tagging policy.
 
 This result suggests that the Terraform configuration needs to be updated to include the missing tags on these resources before it can be considered compliant with the defined tagging policy.
 
- It provides clear guidance on which resources need attention and which specific tags need to be added to each resource. CopyRetry
+ It provides clear guidance on which resources need attention and which specific tags need to be added to each resource.
 
 
 
